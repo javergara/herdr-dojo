@@ -31,3 +31,7 @@ Open it with `mod.open:dojo` from the command palette, or bind a key in `keys.js
 - `mods/dojo/main.js`: the window.
 - `mods/dojo/lessons.js`: the lessons, as data (add your own: each has `steps` with a `test(start, now)` over Herdr's state).
 - `RECIPE.md`: a brief another agent can rebuild the mod from.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
