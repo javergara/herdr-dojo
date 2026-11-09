@@ -20,6 +20,8 @@ Open it with `mod.open:dojo` from the command palette, or bind a key in `keys.js
 { "global": { "cmd-shift-j": "mod.open:dojo" } }
 ```
 
+(The same snippet is in `keys.json`. Merge it into your own file; don't replace yours.)
+
 ## Good to know
 
 - Lesson 1 makes a **practice space**; the other lessons only touch that one. The `Close practice space` button removes it when you're done.

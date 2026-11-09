@@ -32,7 +32,7 @@ An expanded card shows: the lesson text (12.5px `muted`), `YOUR SHORTCUT` with o
 - `mods/dojo/mod.json`: `{ "place": "none", "title": "Herdr Dojo", "overlay": { "kind": "window", "width": 400, "height": 640 } }`.
 - `mods/dojo/main.js`: one `View` (`Dojo`); `init` reads progress and starts `cx.timer.every(400, …)`; `render` builds header, cards and footer with `v_flex`/`h_flex`/`div` from `gpui-kit` and `gpui-base`. Uses `spaces`, `panes`, `focused`, `keys`, `theme`, `run` from `herdr`; commands `space.new`, `space.select`, `space.close`, `tab.new`, `pane.split`.
 - `mods/dojo/lessons.js`: the curriculum as data. Each lesson: `id`, `title`, `teach`, `want` (the command whose key is shown), `steps: [{text, test(start, now)}]`, `doit(run, state)`, and optional `minTabs`, `minPanes`, `minSpaces`, `needsPractice`, `adopt`, `manual`.
-- Open it with `mod.open:dojo`: bind a key (e.g. `"cmd-shift-j": "mod.open:dojo"` under `global` in `keys.json`) or use the command palette. Press it again to close.
+- Open it with `mod.open:dojo`: bind a key (the repo's `keys.json` snippet adds `"cmd-shift-j": "mod.open:dojo"` under `global`; merge it into yours, don't replace the file) or use the command palette. Press it again to close.
 - Colors are theme names only (`foreground`, `muted`, `dim`, `raised`, `border`, `surface`, `accent`, `solid`, `ansi2`), so it follows light and dark themes.
 
 ## Watch out
